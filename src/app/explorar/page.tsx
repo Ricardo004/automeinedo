@@ -868,7 +868,7 @@ export default function ExplorarPage() {
                     <div className="flex flex-wrap gap-2">
                       {searchTerm && (
                         <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-primary-100 text-primary-700">
-                          Pesquisa: "{searchTerm}"
+                          Pesquisa: &ldquo;{searchTerm}&rdquo;
                           <button
                             onClick={() => setSearchTerm("")}
                             className="ml-2 text-primary-500 hover:text-primary-700"
